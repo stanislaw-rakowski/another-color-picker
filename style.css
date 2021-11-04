@@ -1,0 +1,29 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: sans-serif;
+}
+
+#sliders-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: solid black 5px;
+    border-radius: 50%;
+    height: 350px;
+    width: 350px;
+    background-color: white;
+}
+
+input {
+    padding: 1px;
+    width: 250px;
+}
+
+#rgb-output {
+    position: fixed;
+    bottom: 100px;
+}

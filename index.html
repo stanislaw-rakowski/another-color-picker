@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+</head>
+
+<body>
+
+    <div id="sliders-box">
+        <p>RED</p>
+        <input type="range" oninput="getRedValue(this.value)" min="0" max="255" value="255" class="slider"
+            id="red-slider">
+        <p>GREEN</p>
+        <input type="range" oninput="getGreenValue(this.value)" min="0" max="255" value="255" class="slider"
+            id="green-slider">
+        <p>BLUE</p>
+        <input type="range" oninput="getBlueValue(this.value)" min="0" max="255" value="255" class="slider"
+            id="blue-slider">
+    </div>
+    <div id="rgb-output">rgb(255,255,255)</div>
+
+
+</body>
+
+</html>
